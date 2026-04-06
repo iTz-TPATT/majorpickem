@@ -1,1 +1,1 @@
-{ "name": "majorpickem", "version": "1.0.0", "description": "A major pickem game.", "main": "index.js", "scripts": { "test": "echo 'Error: no test specified' && exit 1" }, "author": "iTz-TPATT", "license": "ISC" }
+{\n  \"dependencies\": {\n    \"next\": \"latest\",\n    \"react\": \"latest\",\n    \"react-dom\": \"latest\"\n  }\n}
