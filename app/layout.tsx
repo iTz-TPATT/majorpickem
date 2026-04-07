@@ -1,11 +1,15 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Your App Title',
-  description: 'Your App Description',
+  title: "Major Pick'em 2026",
+  description: "Masters pool app",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <body>{children}</body>
