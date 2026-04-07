@@ -284,11 +284,8 @@ async function fetchLiveOdds() {
 
   if (lastError) throw lastError;
   throw new Error("No live odds endpoint available.");
-} });
-  if (!res.ok) throw new Error(`ESPN request failed: ${res.status}`);
-  const data = await res.json();
-  return extractScoreMap(data);
 }
+
 
 export default function MajorPickem2026() {
   const [state, setState] = useState(DEFAULT_STATE);
